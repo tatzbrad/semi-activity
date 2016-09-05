@@ -2,13 +2,12 @@ body {
     background-image: fixed;
     background-attachment: fixed;
     /*background-image;*/
+    background-color:white;
     font-size: 87.5%;
     font-family: Arial, 'Lucida Sans Unicode';
     text-align: left;
 }
-{
-font-family: Arial;    
-}
+
 #backheader
 {
     background-color: greenyellow;
@@ -26,3 +25,77 @@ font-family: Arial;
     width: 100%;
     height: 40px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #ff8c00;
+}
+
+a:hover, a:active{
+    background-color: #ff8c00;
+    color: #fff;   
+}
+
+.body {
+    width: 980px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.header {
+   /* background-image: url('img/headerimage.png');
+    background-attachment: fixed;*/
+    border-radius: 10px;
+    border-color: #c9d008;
+}
+
+.logo {
+  
+ 
+}
+
+.nav {
+    height: 40px;
+   
+	font-size: 23px;
+    border-radius: 10px;
+    padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.mainContent {
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100%;
+    border-color: #c9d008;
+}
+
+.contentLeft{
+    width: 70%;
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+}
+
+.contentRight{
+    width: 30%;
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+	padding-top: 5px;
+    background-color: #ff7000;
+    float:left;
+    border-radius: 10px;
+}
+  
